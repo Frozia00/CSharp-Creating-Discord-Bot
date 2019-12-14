@@ -1,6 +1,10 @@
 # CSharp-Creating-Discord-Bot
 This is a Discord Bot application which coded using C# with .NET Core .
 
+## Contents 
+### 1) Create Discord Developer App
+### 2) C# Application
+
 # 1) Create Discord Developer App
 - Go to Discord Develpor Portal >>> https://discordapp.com/developers/applications/
 - On "Applications" Tab, click the "New Application" button on top-right of page.
@@ -135,3 +139,6 @@ namespace DiscordBot
     }
 }
 ```
+
+
+## Your bot application is ready for using to Discord. You only need start with debugging the program in console.
