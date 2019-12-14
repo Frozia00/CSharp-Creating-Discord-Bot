@@ -31,3 +31,22 @@ This is a Discord Bot application which coded using C# with .NET Core .
 - You should create a Console Application in Visual Studio.
 
 Note: I haven't used Visual Stuido, my IDE is just "Visual Studio Code". So, may there be differences according Visual Studio.
+
+- Install .NET Core SDK 3.0 from Microsoft. (to run NuGet console in VS Code, may be it's not necessary for your application. Try it.)
+
+- Install "NuGet Package Manaer", for VS Code open the Extensions and search the Nuget Package Manager
+
+![Screenshot_5](https://user-images.githubusercontent.com/58179070/70850875-112d3f00-1ea0-11ea-8b58-6dbc49ade8e2.jpg)
+
+- For add "DSharpPlus" package to NuGet, type CTRL+SHIFT+P and open the commands palette.
+- Click the "NuGet Package Manager: Add Package" 
+
+![Screenshot_6](https://user-images.githubusercontent.com/58179070/70851034-9f55f500-1ea1-11ea-9b72-47d2d0942a64.jpg)
+
+- Type "DSharpPlus" to search.
+- Then click it.
+- Select to version of "3.2.3" from the opened list.
+
+![Screenshot_7](https://user-images.githubusercontent.com/58179070/70851121-6b2f0400-1ea2-11ea-85c9-249beb8f8d35.jpg)
+![Screenshot_8](https://user-images.githubusercontent.com/58179070/70851122-6b2f0400-1ea2-11ea-81cb-386f9a03f9cf.jpg)
+![Screenshot_9](https://user-images.githubusercontent.com/58179070/70851123-6b2f0400-1ea2-11ea-93a4-773e32b1774b.jpg)
