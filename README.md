@@ -50,3 +50,9 @@ Note: I haven't used Visual Stuido, my IDE is just "Visual Studio Code". So, may
 ![Screenshot_7](https://user-images.githubusercontent.com/58179070/70851121-6b2f0400-1ea2-11ea-85c9-249beb8f8d35.jpg)
 ![Screenshot_8](https://user-images.githubusercontent.com/58179070/70851122-6b2f0400-1ea2-11ea-81cb-386f9a03f9cf.jpg)
 ![Screenshot_9](https://user-images.githubusercontent.com/58179070/70851123-6b2f0400-1ea2-11ea-93a4-773e32b1774b.jpg)
+
+- Add this library for your program:
+
+```csharp
+using DSharpPlus;
+```
