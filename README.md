@@ -1,6 +1,8 @@
 # CSharp-Creating-Discord-Bot
 This is a Discord Bot application which coded using C# with .NET Core .
 
+#### Note that: It's only Windows Console Application. So, to hosting it 7/24 online you need use Windows PC or Windows Server (VPS/VDS)
+
 ## Contents 
 ### 1) Create Discord Developer App
 ### 2) C# Application
