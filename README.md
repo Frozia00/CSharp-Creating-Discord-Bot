@@ -38,7 +38,7 @@ This is a Discord Bot application which coded using C# with .NET Core .
 
 Note: I haven't used Visual Stuido, my IDE is just "Visual Studio Code". So, may there be differences according Visual Studio.
 
-- Install .NET Core SDK 3.0 from Microsoft. (to run NuGet console in VS Code, may be it's not necessary for your application. Try it.)
+- Install .NET Core SDK 3.0 from Microsoft.
 
 - Install "NuGet Package Manaer", for VS Code open the Extensions and search the Nuget Package Manager
 
