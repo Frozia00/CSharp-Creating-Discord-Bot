@@ -25,3 +25,9 @@ This is a Discord Bot application which coded using C# with .NET Core .
 - The token is you will use it in C# application, so save it.
 
 - Also the Client ID (in OAuth2 or General Information Tab) is you need to authorize for your Discord server to bot. Save it, too.
+
+# 2) C# Application
+
+- You should create a Console Application in Visual Studio.
+
+Note: I haven't used Visual Stuido, my IDE is just "Visual Studio Code". So, may there be differences according Visual Studio.
