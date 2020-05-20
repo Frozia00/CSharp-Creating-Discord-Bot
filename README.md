@@ -1,7 +1,6 @@
 # CSharp-Creating-Discord-Bot
 This is a Discord Bot application which coded using C# with .NET Core .
 
-#### Note that: It's only Windows Console Application. So, to hosting it 7/24 online you need use Windows PC or Windows Server (VPS/VDS)
 
 ## Contents 
 ### 1) Create Discord Developer App
@@ -113,13 +112,13 @@ namespace DiscordBot
                 if (e.Message.Content.ToLower().StartsWith("Hi")) // The user's message
                     await e.Message.RespondAsync("Hi dude!"); // Bot's response
 
-                if (e.Message.Content.ToLower() == "çay var mı") // The alternative code for sending message (w/o "StartsWith")
+                if (e.Message.Content.ToLower() == "Hello Bot, how're you?") // The alternative code for sending message (w/o "StartsWith")
                     await e.Message.RespondAsync("https://imgur.com/gallery/0000.jpeg"); //Sample for responsing with Image link
 
                 if (e.Message.Content.ToLower()=="!soldier") // You can create your own commands start with "!" or another thing.
                     await e.Message.RespondAsync("Yes sir!");
 
-                if (e.Message.Content.ToLower()=="!random") // This is simple for random responsing from bot if you tpye "!random".
+                if (e.Message.Content.ToLower()=="!random") // This is sample for random responsing from bot if you tpye "!random".
                 {
                     Random rand = new Random();
                     int r = rand.Next(0,2); 
