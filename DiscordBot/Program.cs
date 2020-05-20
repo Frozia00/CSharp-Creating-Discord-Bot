@@ -35,13 +35,13 @@ namespace DiscordBot
                 if (e.Message.Content.ToLower().StartsWith("Hi")) // The user's message
                     await e.Message.RespondAsync("Hi dude!"); // Bot's response
 
-                if (e.Message.Content.ToLower() == "çay var mı") // The alternative code for sending message (w/o "StartsWith")
+                if (e.Message.Content.ToLower() == "Hello Bot, how're you?") // The alternative code for sending message (w/o "StartsWith")
                     await e.Message.RespondAsync("https://imgur.com/gallery/0000.jpeg"); //Sample for responsing with Image link
 
                 if (e.Message.Content.ToLower()=="!soldier") // You can create your own commands start with "!" or another thing.
                     await e.Message.RespondAsync("Yes sir!");
 
-                if (e.Message.Content.ToLower()=="!random") // This is simple for random responsing from bot if you tpye "!random".
+                if (e.Message.Content.ToLower()=="!random") // This is sample for random responsing from bot if you tpye "!random".
                 {
                     Random rand = new Random();
                     int r = rand.Next(0,2); 
